@@ -28,7 +28,7 @@ struct EmployeeListView: View {
             }
             .navigationTitle(Text("Employees List"))
         }
-        .task{
+        .task {
             await getDataFromAPI()
         }
     }

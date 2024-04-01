@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: - Todo Protocol for GET with given URL .
+// MARK: - Protocol for GET Employee with given URL .
 protocol Fetchable {
     
     func get(url: URL) async throws -> Data

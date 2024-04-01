@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct EmployeeCellView: View {
+    
     let employee: Employee
     var body: some View {
         HStack {
