@@ -9,7 +9,7 @@ import XCTest
 @testable import Demo
 
 final class EmployeeCardsRepositoryTests: XCTestCase {
-
+    
     var fakeNetworkManager: FakeNetworkManager!
     var employeeCardsRepository: EmployeeCardsRepository!
     
@@ -18,11 +18,11 @@ final class EmployeeCardsRepositoryTests: XCTestCase {
         fakeNetworkManager = FakeNetworkManager()
         employeeCardsRepository = EmployeeRepositoryImplementation (networkManager: fakeNetworkManager)
     }
-
+    
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         employeeCardsRepository = nil
-
+        
     }
     
     // when passes Employee list array will return with some data
@@ -58,7 +58,7 @@ final class EmployeeCardsRepositoryTests: XCTestCase {
         }
         
         let lists = try? await employeeCardsRepository.getEmployeeList(for: url)
-       
+        
         //THEN
         XCTAssertNil(lists)
     }
