@@ -14,7 +14,7 @@ enum NetworkError: Error {
     case dataNotFound
 }
 
-// MARK: - Creating the Custom Error Message.
+// MARK: - Creating custom error message.
 
 extension NetworkError: LocalizedError {
     

@@ -11,5 +11,4 @@ import Foundation
 protocol Fetchable {
     
     func get(url: URL) async throws -> Data
-    
 }

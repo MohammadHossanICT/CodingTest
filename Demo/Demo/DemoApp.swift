@@ -9,7 +9,8 @@ import SwiftUI
 
 @main
 struct DemoApp: App {
-    // MARK: - Creating TodoListView with view model Repository and NetworkManager  .
+// MARK: - Creating Employee List View with view model Repository and NetworkManager  .
+    
     var body: some Scene {
         WindowGroup {
            EmployeeListView(viewModel: EmployeeListViewModel(repository: EmployeeRepositoryImplementation(networkManager: NetworkManager())))

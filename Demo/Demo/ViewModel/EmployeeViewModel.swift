@@ -24,7 +24,7 @@ protocol EmployeeListViewModelAction: ObservableObject {
 final class EmployeeListViewModel {
     
     @Published var viewState = ViewState.load(employees: [])
-    var isError = false
+    public var isError = false
     private(set) var customError: NetworkError?
     private(set) var employeeLists: [Employee] = []
     private let repository: EmployeeCardsRepository
