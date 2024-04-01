@@ -14,6 +14,20 @@
 		8CD41B242BBAD5DE00230C58 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B232BBAD5DE00230C58 /* DemoTests.swift */; };
 		8CD41B2E2BBAD5DE00230C58 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B2D2BBAD5DE00230C58 /* DemoUITests.swift */; };
 		8CD41B302BBAD5DE00230C58 /* DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B2F2BBAD5DE00230C58 /* DemoUITestsLaunchTests.swift */; };
+		8CD41B3E2BBAD66D00230C58 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B3D2BBAD66D00230C58 /* Endpoint.swift */; };
+		8CD41B402BBAD69200230C58 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B3F2BBAD69200230C58 /* Constants.swift */; };
+		8CD41B422BBAD6B200230C58 /* EmployeeListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B412BBAD6B200230C58 /* EmployeeListData.swift */; };
+		8CD41B452BBAD76600230C58 /* Fetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B442BBAD76600230C58 /* Fetchable.swift */; };
+		8CD41B472BBAD7AE00230C58 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B462BBAD7AE00230C58 /* NetworkError.swift */; };
+		8CD41B492BBAD7E700230C58 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B482BBAD7E700230C58 /* Networking.swift */; };
+		8CD41B4B2BBAD83E00230C58 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B4A2BBAD83E00230C58 /* NetworkManager.swift */; };
+		8CD41B4D2BBAD8F700230C58 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B4C2BBAD8F700230C58 /* JsonParser.swift */; };
+		8CD41B502BBAD96000230C58 /* EmployeeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B4F2BBAD96000230C58 /* EmployeeRepository.swift */; };
+		8CD41B532BBADAD300230C58 /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B522BBADAD300230C58 /* EmployeeViewModel.swift */; };
+		8CD41B562BBADCBE00230C58 /* EmployeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B552BBADCBE00230C58 /* EmployeeListView.swift */; };
+		8CD41B582BBADF8400230C58 /* EmployeeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B572BBADF8400230C58 /* EmployeeCellView.swift */; };
+		8CD41B5A2BBADFD500230C58 /* EmployeeAsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B592BBADFD500230C58 /* EmployeeAsyncImageView.swift */; };
+		8CD41B5C2BBADFFA00230C58 /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B5B2BBADFFA00230C58 /* CacheAsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,20 @@
 		8CD41B292BBAD5DE00230C58 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD41B2D2BBAD5DE00230C58 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		8CD41B2F2BBAD5DE00230C58 /* DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CD41B3D2BBAD66D00230C58 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		8CD41B3F2BBAD69200230C58 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8CD41B412BBAD6B200230C58 /* EmployeeListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListData.swift; sourceTree = "<group>"; };
+		8CD41B442BBAD76600230C58 /* Fetchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetchable.swift; sourceTree = "<group>"; };
+		8CD41B462BBAD7AE00230C58 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		8CD41B482BBAD7E700230C58 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		8CD41B4A2BBAD83E00230C58 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8CD41B4C2BBAD8F700230C58 /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		8CD41B4F2BBAD96000230C58 /* EmployeeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRepository.swift; sourceTree = "<group>"; };
+		8CD41B522BBADAD300230C58 /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		8CD41B552BBADCBE00230C58 /* EmployeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListView.swift; sourceTree = "<group>"; };
+		8CD41B572BBADF8400230C58 /* EmployeeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCellView.swift; sourceTree = "<group>"; };
+		8CD41B592BBADFD500230C58 /* EmployeeAsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeAsyncImageView.swift; sourceTree = "<group>"; };
+		8CD41B5B2BBADFFA00230C58 /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +122,11 @@
 		8CD41B112BBAD5DB00230C58 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				8CD41B542BBADC9C00230C58 /* View */,
+				8CD41B512BBADAA200230C58 /* ViewModel */,
+				8CD41B4E2BBAD93D00230C58 /* Repository */,
+				8CD41B432BBAD75000230C58 /* NetworkLayer */,
+				8CD41B3C2BBAD64B00230C58 /* Model */,
 				8CD41B122BBAD5DB00230C58 /* DemoApp.swift */,
 				8CD41B142BBAD5DB00230C58 /* ContentView.swift */,
 				8CD41B162BBAD5DD00230C58 /* Assets.xcassets */,
@@ -125,6 +158,55 @@
 				8CD41B2F2BBAD5DE00230C58 /* DemoUITestsLaunchTests.swift */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		8CD41B3C2BBAD64B00230C58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CD41B3D2BBAD66D00230C58 /* Endpoint.swift */,
+				8CD41B3F2BBAD69200230C58 /* Constants.swift */,
+				8CD41B412BBAD6B200230C58 /* EmployeeListData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CD41B432BBAD75000230C58 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8CD41B442BBAD76600230C58 /* Fetchable.swift */,
+				8CD41B462BBAD7AE00230C58 /* NetworkError.swift */,
+				8CD41B482BBAD7E700230C58 /* Networking.swift */,
+				8CD41B4A2BBAD83E00230C58 /* NetworkManager.swift */,
+				8CD41B4C2BBAD8F700230C58 /* JsonParser.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		8CD41B4E2BBAD93D00230C58 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8CD41B4F2BBAD96000230C58 /* EmployeeRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8CD41B512BBADAA200230C58 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8CD41B522BBADAD300230C58 /* EmployeeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8CD41B542BBADC9C00230C58 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8CD41B552BBADCBE00230C58 /* EmployeeListView.swift */,
+				8CD41B572BBADF8400230C58 /* EmployeeCellView.swift */,
+				8CD41B592BBADFD500230C58 /* EmployeeAsyncImageView.swift */,
+				8CD41B5B2BBADFFA00230C58 /* CacheAsyncImage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +339,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD41B4B2BBAD83E00230C58 /* NetworkManager.swift in Sources */,
+				8CD41B452BBAD76600230C58 /* Fetchable.swift in Sources */,
+				8CD41B582BBADF8400230C58 /* EmployeeCellView.swift in Sources */,
+				8CD41B562BBADCBE00230C58 /* EmployeeListView.swift in Sources */,
+				8CD41B472BBAD7AE00230C58 /* NetworkError.swift in Sources */,
+				8CD41B5C2BBADFFA00230C58 /* CacheAsyncImage.swift in Sources */,
+				8CD41B422BBAD6B200230C58 /* EmployeeListData.swift in Sources */,
+				8CD41B492BBAD7E700230C58 /* Networking.swift in Sources */,
 				8CD41B152BBAD5DB00230C58 /* ContentView.swift in Sources */,
+				8CD41B4D2BBAD8F700230C58 /* JsonParser.swift in Sources */,
+				8CD41B3E2BBAD66D00230C58 /* Endpoint.swift in Sources */,
+				8CD41B502BBAD96000230C58 /* EmployeeRepository.swift in Sources */,
 				8CD41B132BBAD5DB00230C58 /* DemoApp.swift in Sources */,
+				8CD41B532BBADAD300230C58 /* EmployeeViewModel.swift in Sources */,
+				8CD41B5A2BBADFD500230C58 /* EmployeeAsyncImageView.swift in Sources */,
+				8CD41B402BBAD69200230C58 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
