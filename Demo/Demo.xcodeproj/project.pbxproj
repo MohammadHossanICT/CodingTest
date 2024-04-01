@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8CD41B132BBAD5DB00230C58 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B122BBAD5DB00230C58 /* DemoApp.swift */; };
-		8CD41B152BBAD5DB00230C58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B142BBAD5DB00230C58 /* ContentView.swift */; };
 		8CD41B172BBAD5DD00230C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD41B162BBAD5DD00230C58 /* Assets.xcassets */; };
 		8CD41B1A2BBAD5DD00230C58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD41B192BBAD5DD00230C58 /* Preview Assets.xcassets */; };
 		8CD41B242BBAD5DE00230C58 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD41B232BBAD5DE00230C58 /* DemoTests.swift */; };
@@ -50,7 +49,6 @@
 /* Begin PBXFileReference section */
 		8CD41B0F2BBAD5DB00230C58 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD41B122BBAD5DB00230C58 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
-		8CD41B142BBAD5DB00230C58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CD41B162BBAD5DD00230C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CD41B192BBAD5DD00230C58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CD41B1F2BBAD5DE00230C58 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,7 +126,6 @@
 				8CD41B432BBAD75000230C58 /* NetworkLayer */,
 				8CD41B3C2BBAD64B00230C58 /* Model */,
 				8CD41B122BBAD5DB00230C58 /* DemoApp.swift */,
-				8CD41B142BBAD5DB00230C58 /* ContentView.swift */,
 				8CD41B162BBAD5DD00230C58 /* Assets.xcassets */,
 				8CD41B182BBAD5DD00230C58 /* Preview Content */,
 			);
@@ -347,7 +344,6 @@
 				8CD41B5C2BBADFFA00230C58 /* CacheAsyncImage.swift in Sources */,
 				8CD41B422BBAD6B200230C58 /* EmployeeListData.swift in Sources */,
 				8CD41B492BBAD7E700230C58 /* Networking.swift in Sources */,
-				8CD41B152BBAD5DB00230C58 /* ContentView.swift in Sources */,
 				8CD41B4D2BBAD8F700230C58 /* JsonParser.swift in Sources */,
 				8CD41B3E2BBAD66D00230C58 /* Endpoint.swift in Sources */,
 				8CD41B502BBAD96000230C58 /* EmployeeRepository.swift in Sources */,
