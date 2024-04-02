@@ -28,6 +28,11 @@ struct EmployeeListView: View {
                     alertView()
                 }
             }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    getToolBarView()
+                }
+            }
             .navigationTitle(Text("Employees List"))
         }
         .task {
@@ -61,6 +66,21 @@ struct EmployeeListView: View {
         Text("").alert(isPresented: $viewModel.isError) {
             Alert(title: Text("General_Error"), message: Text(viewModel.customError?.localizedDescription ?? ""),dismissButton: .default(Text("Okay")))
         }
+    }
+    
+    @ViewBuilder
+    func getToolBarView() -> some View {
+        Button {
+            Task {
+                await getDataFromAPI()
+            }
+        } label: {
+            HStack {
+                Image(systemName: "arrow.clockwise")
+                    .padding(.all, 10.0)
+            }.fixedSize()
+        }
+        .cornerRadius(5.0)
     }
 }
 
