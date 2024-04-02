@@ -9,4 +9,4 @@ This is the coding test to demonstrate the showcase about SwiftUI. In this codin
 
 * **Concurrency and Performance:** In this coding test, I have used the async and await to handle te concurrency. The async and await is also known as structured concurrency. It is the most recommend way to hande the concurrency rather then closure with completion block. The SwiftUI works on properties wrapper like @State, @Observed, @ObserbaleObjest which and combine which help to achieve the highest performance of the App.
 
-*** Simplicity and Readability:** Because of the async and await the code is very easy to understand. The async and await is help to write the less code which increase the readability of the code. Also help us to write batter unit test.
+* **Simplicity and Readability:** Because of the async and await the code is very easy to understand. The async and await is help to write the less code which increase the readability of the code. Also help us to write batter unit test.
