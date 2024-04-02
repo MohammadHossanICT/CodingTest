@@ -38,6 +38,9 @@ struct EmployeeListView: View {
         .task {
             await getDataFromAPI()
         }
+        .refreshable {
+            await getDataFromAPI()
+        }
     }
     
     // MARK: - Making API call call URL .
