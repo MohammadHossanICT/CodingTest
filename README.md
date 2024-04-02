@@ -13,3 +13,8 @@ This is the coding test to demonstrate the showcase about SwiftUI. In this codin
 
 **Here is the screenshot when the app is lunched**
 ![Simulator Screenshot - iPhone 15 Pro - 2024-04-02 at 13 45 44](https://github.com/MohammadHossanICT/CodingTest/assets/100123501/37418596-2fa4-4b03-a13c-5f69440ca4f8)
+
+
+Here is the details view when the list cell is selected.
+
+![Simulator Screenshot - iPhone 15 Pro - 2024-04-02 at 13 48 07](https://github.com/MohammadHossanICT/CodingTest/assets/100123501/5d3d338a-ff4c-4959-8bbe-9edcce9218c5)
