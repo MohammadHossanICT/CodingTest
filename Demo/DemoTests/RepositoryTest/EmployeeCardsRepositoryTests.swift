@@ -61,5 +61,8 @@ final class EmployeeCardsRepositoryTests: XCTestCase {
         
         //THEN
         XCTAssertNil(lists)
+        XCTAssertNil(lists?.employees.first?.fullName)
+        XCTAssertNil(lists?.employees.first?.photoUrlSmall)
+        XCTAssertNil(lists?.employees.first?.phoneNumber)
     }
 }
