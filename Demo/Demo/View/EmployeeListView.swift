@@ -17,7 +17,9 @@ struct EmployeeListView: View {
                 case.load(employees: let employees):
                     List {
                         ForEach(employees, id: \.self) { employeeList in
-                            EmployeeCellView(employee: employeeList)
+                            NavigationLink(destination: EmployeeDetailsView(employee: employeeList)) {
+                                EmployeeCellView(employee: employeeList)
+                            }
                         }
                     }
                 case .refresh:
